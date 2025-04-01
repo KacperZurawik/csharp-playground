@@ -1,0 +1,30 @@
+# Ignore build outputs
+bin/
+obj/
+
+# Ignore Rider / VSCode / Visual Studio junk
+.vscode/
+.idea/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+.vs/
+
+# Ignore project files if robisz minimalistyczne repo bez .csproj/.sln
+*.csproj
+*.sln
+
+# Ignore temporary files
+*.tmp
+*.log
+*.lock
+*.bak
+
+# Ignore OS crap
+.DS_Store
+Thumbs.db
+
+# Ignore environment files
+.env
+.env.*
